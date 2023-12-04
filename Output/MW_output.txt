@@ -1,0 +1,1500 @@
+[1] 1-Hexanol
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound  estimate .y.       group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>        <dbl> <chr>     <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 1-Hexanol   -0.166 Normaliz~ female male       7     7      13 0.165  -0.296 0.00782 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.393     7     7 moderate 
+# A tibble: 1 x 14
+  compound  estimate .y.       group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>        <dbl> <chr>     <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 1-Hexanol  -0.0153 Normaliz~ adult  nimph     14     9      61 0.926  -0.131   0.203 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph   0.0263    14     9 small    
+
+
+[1] 2-Ethylhexanol
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound       estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5 p.sig~6
+  <fct>            <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 2-Ethylhexanol  -0.463 Norm~ female male       3     3       1   0.2   -1.17   0.294 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: estimate, 2: statistic, 3: conf.low, 4: conf.high, 5: alternative,
+#   6: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.624     3     3 large    
+# A tibble: 1 x 14
+  compound       estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5 p.sig~6
+  <fct>            <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 2-Ethylhexanol   0.176 Norm~ adult  nimph      6     8      31 0.414  -0.393   0.642 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: estimate, 2: statistic, 3: conf.low, 4: conf.high, 5: alternative,
+#   6: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.242     6     8 small    
+
+
+[1] 2-Hexenal, (E)-
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound       estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5 p.sig~6
+  <fct>            <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 2-Hexenal, (E~   0.150 Norm~ female male       4     4       9 0.886  -0.537    1.19 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: estimate, 2: statistic, 3: conf.low, 4: conf.high, 5: alternative,
+#   6: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.102     4     4 small    
+# A tibble: 1 x 14
+  compound       estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5 p.sig~6
+  <fct>            <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 2-Hexenal, (E~   0.246 Norm~ adult  nimph      8     4      24 0.214 -0.0357    1.28 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: estimate, 2: statistic, 3: conf.low, 4: conf.high, 5: alternative,
+#   6: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.392     8     4 moderate 
+
+
+[1] 3-Hexen-1-ol (Z)-
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound       estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5 p.sig~6
+  <fct>            <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 3-Hexen-1-ol ~   0.419 Norm~ female male       8     7      42 0.121  0.0425   0.825 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: estimate, 2: statistic, 3: conf.low, 4: conf.high, 5: alternative,
+#   6: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.418     8     7 moderate 
+# A tibble: 1 x 14
+  compound      estimate .y.   group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>            <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 3-Hexen-1-ol~ -0.00775 Norm~ adult  nimph     15     9      67     1  -0.683   0.471 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph  0.00609    15     9 small    
+
+
+[1] 3-Hexen-1-ol, acetate, (Z)-
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound       estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5 p.sig~6
+  <fct>            <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 3-Hexen-1-ol,~  -0.183 Norm~ female male       6     4       7 0.352  -0.434  0.0740 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: estimate, 2: statistic, 3: conf.low, 4: conf.high, 5: alternative,
+#   6: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.337     6     4 moderate 
+# A tibble: 1 x 14
+  compound       estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5 p.sig~6
+  <fct>            <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 3-Hexen-1-ol,~ -0.0693 Norm~ adult  nimph     10     5      21 0.679  -0.382   0.234 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: estimate, 2: statistic, 3: conf.low, 4: conf.high, 5: alternative,
+#   6: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.126    10     5 small    
+
+
+[1] alfa-Copaene
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound     estimate .y.    group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>           <dbl> <chr>  <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 alfa-Copaene -0.00321 Norma~ female male       5     7      17     1  -0.247   0.223 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male    0.0234     5     7 small    
+# A tibble: 1 x 14
+  compound     estimate .y.    group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>           <dbl> <chr>  <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 alfa-Copaene   -0.172 Norma~ adult  nimph     12     4      12  0.17  -0.489   0.151 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.364    12     4 moderate 
+
+
+[1] beta-cis-Ocimene
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound       estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5 p.sig~6
+  <fct>            <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 beta-cis-Ocim~ -0.0968 Norm~ female male       8     8      28 0.721  -0.417   0.172 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: estimate, 2: statistic, 3: conf.low, 4: conf.high, 5: alternative,
+#   6: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.105     8     8 small    
+# A tibble: 1 x 14
+  compound       estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5 p.sig~6
+  <fct>            <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 beta-cis-Ocim~ 4.00e-4 Norm~ adult  nimph     16     9      72     1  -0.291   0.279 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: estimate, 2: statistic, 3: conf.low, 4: conf.high, 5: alternative,
+#   6: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph        0    16     9 small    
+
+
+[1] beta-Myrcene
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound     estimate .y.    group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>           <dbl> <chr>  <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 beta-Myrcene   -0.115 Norma~ female male       3     3       2   0.4  -0.465   0.226 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.445     3     3 moderate 
+# A tibble: 1 x 14
+  compound     estimate .y.    group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>           <dbl> <chr>  <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 beta-Myrcene    0.150 Norma~ adult  nimph      6     3      15 0.167 -0.0906   0.374 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.516     6     3 large    
+
+
+[1] beta-trans-Ocimene
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound       estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5 p.sig~6
+  <fct>            <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 beta-trans-Oc~  -0.126 Norm~ female male       8     8      25 0.505  -0.305   0.194 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: estimate, 2: statistic, 3: conf.low, 4: conf.high, 5: alternative,
+#   6: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.184     8     8 small    
+# A tibble: 1 x 14
+  compound       estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5 p.sig~6
+  <fct>            <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 beta-trans-Oc~   0.283 Norm~ adult  nimph     16     5      67 0.025  0.0471   0.662 Wilco~ two.si~ *      
+# ... with abbreviated variable names 1: estimate, 2: statistic, 3: conf.low, 4: conf.high, 5: alternative,
+#   6: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.487    16     5 moderate 
+
+
+[1] Caryophyllene
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound      estimate .y.   group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>            <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 Caryophyllene    0.127 Norm~ female male       8     8      38 0.574  -0.192   0.486 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.158     8     8 small    
+# A tibble: 1 x 14
+  compound      estimate .y.   group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>            <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 Caryophyllene   -0.286 Norm~ adult  nimph     16     9      50 0.229  -0.593   0.121 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.249    16     9 small    
+
+
+[1] Cosmene
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound estimate .y.        group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>       <dbl> <chr>      <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 Cosmene    -0.194 Normalize~ female male       4     3       1 0.114  -0.542 -0.0232 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.668     4     3 large    
+# A tibble: 1 x 14
+  compound estimate .y.        group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>       <dbl> <chr>      <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 Cosmene  -0.00416 Normalize~ adult  nimph      7     6      21     1  -0.266   0.333 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph        0     7     6 small    
+
+
+[1] Dendrolasin
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound    estimate .y.     group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>          <dbl> <chr>   <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 Dendrolasin  -0.0778 Normal~ female male       4     3       4 0.629  -0.214   0.150 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.267     4     3 small    
+# A tibble: 1 x 14
+  compound    estimate .y.    group1 group2    n1    n2 stati~1      p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>          <dbl> <chr>  <chr>  <chr>  <int> <int>   <dbl>  <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 Dendrolasin   -0.133 Norma~ adult  nimph      7     5       6 0.0732  -0.623  0.0232 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.539     7     5 large    
+
+
+[1] DMNT
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound estimate .y.        group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>       <dbl> <chr>      <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 DMNT        0.415 Normalize~ female male       9     8      58 0.036   0.102   0.828 Wilco~ two.si~ *      
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.513     9     8 large    
+# A tibble: 1 x 14
+  compound estimate .y.       group1 group2    n1    n2 stati~1      p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>       <dbl> <chr>     <chr>  <chr>  <int> <int>   <dbl>  <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 DMNT        0.475 Normaliz~ adult  nimph     17     9     111 0.0662 -0.0252   0.998 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.365    17     9 moderate 
+
+
+[1] eucalyptol
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound   estimate .y.      group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>         <dbl> <chr>    <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 eucalyptol   -0.220 Normali~ female male       6     6      11  0.31  -0.500   0.120 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.324     6     6 moderate 
+# A tibble: 1 x 14
+  compound   estimate .y.      group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>         <dbl> <chr>    <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 eucalyptol   -0.128 Normali~ adult  nimph     12     4      19 0.599  -0.593   0.336 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.152    12     4 small    
+
+
+[1] Germacrene D
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound     estimate .y.    group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>           <dbl> <chr>  <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 Germacrene D    0.113 Norma~ female male       7     4      16 0.788  -0.220   0.239 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.114     7     4 small    
+# A tibble: 1 x 14
+  compound     estimate .y.    group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>           <dbl> <chr>  <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 Germacrene D   -0.147 Norma~ adult  nimph     11     8      31  0.31  -0.363   0.155 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.246    11     8 small    
+
+
+[1] linalool
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound estimate .y.        group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>       <dbl> <chr>      <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 linalool  0.00768 Normalize~ female male       4     6      13 0.914  -0.260   0.152 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male    0.0674     4     6 small    
+# A tibble: 1 x 14
+  compound estimate .y.        group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>       <dbl> <chr>      <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 linalool   -0.151 Normalize~ adult  nimph     10     8      21 0.101  -0.294  0.0526 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.398    10     8 moderate 
+
+
+[1] Methyl salicylate
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound       estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5 p.sig~6
+  <fct>            <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 Methyl salicy~  0.0880 Norm~ female male       9     7      34 0.837  -0.332   0.348 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: estimate, 2: statistic, 3: conf.low, 4: conf.high, 5: alternative,
+#   6: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male    0.0662     9     7 small    
+# A tibble: 1 x 14
+  compound      estim~1 .y.   group1 group2    n1    n2 stati~2      p conf.~3 conf.~4 method alter~5 p.sig~6
+  <fct>           <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl>  <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 Methyl salic~  -0.322 Norm~ adult  nimph     16     9      32 0.0231  -0.630 -0.0286 Wilco~ two.si~ *      
+# ... with abbreviated variable names 1: estimate, 2: statistic, 3: conf.low, 4: conf.high, 5: alternative,
+#   6: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.453    16     9 moderate 
+
+
+[1] Myroxide
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound estimate .y.        group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>       <dbl> <chr>      <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 Myroxide   -0.135 Normalize~ female male       8     8      27 0.645  -0.418   0.196 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.131     8     8 small    
+# A tibble: 1 x 14
+  compound estimate .y.        group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>       <dbl> <chr>      <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 Myroxide    0.218 Normalize~ adult  nimph     16     9      99 0.136 -0.0343   0.507 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.306    16     9 moderate 
+
+
+[1] Octanal
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound estimate .y.        group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>       <dbl> <chr>      <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 Octanal  0.000866 Normalize~ female male       7     3      11     1  -0.308   0.273 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male    0.0360     7     3 small    
+# A tibble: 1 x 14
+  compound estimate .y.        group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>       <dbl> <chr>      <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 Octanal    0.0460 Normalize~ adult  nimph     10     6      34 0.713  -0.169   0.261 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.108    10     6 small    
+
+
+[1] p-Mentha-1,5-dien-8-ol
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound       estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5 p.sig~6
+  <fct>            <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 p-Mentha-1,5-~ -0.0301 Norm~ female male       6     4      11 0.914  -0.337   0.238 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: estimate, 2: statistic, 3: conf.low, 4: conf.high, 5: alternative,
+#   6: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male    0.0674     6     4 small    
+# A tibble: 1 x 14
+  compound       estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5 p.sig~6
+  <fct>            <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 p-Mentha-1,5-~ -0.0595 Norm~ adult  nimph     10     7      33 0.887  -0.228   0.177 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: estimate, 2: statistic, 3: conf.low, 4: conf.high, 5: alternative,
+#   6: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph   0.0473    10     7 small    
+
+
+[1] Piperitone
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound   estimate .y.      group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>         <dbl> <chr>    <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 Piperitone    0.332 Normali~ female male       6     7      28 0.366  -0.310   0.771 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.277     6     7 small    
+# A tibble: 1 x 14
+  compound   estimate .y.      group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>         <dbl> <chr>    <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 Piperitone   -0.286 Normali~ adult  nimph     13     9      41 0.262  -0.968   0.222 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.249    13     9 small    
+
+
+[1] 1-Hexanol
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound  estimate .y.       group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>        <dbl> <chr>     <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 1-Hexanol   -0.166 Normaliz~ female male       7     7      13 0.165  -0.437  0.0533 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.393     7     7 moderate 
+# A tibble: 1 x 14
+  compound  estimate .y.       group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>        <dbl> <chr>     <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 1-Hexanol  -0.0153 Normaliz~ adult  nimph     14     9      61 0.926  -0.131   0.203 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph   0.0263    14     9 small    
+
+
+[1] 2-Ethylhexanol
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound       estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5 p.sig~6
+  <fct>            <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 2-Ethylhexanol  -0.463 Norm~ female male       3     3       1   0.2   -1.17   0.294 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: estimate, 2: statistic, 3: conf.low, 4: conf.high, 5: alternative,
+#   6: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.624     3     3 large    
+# A tibble: 1 x 14
+  compound       estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5 p.sig~6
+  <fct>            <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 2-Ethylhexanol   0.176 Norm~ adult  nimph      6     8      31 0.414  -0.393   0.642 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: estimate, 2: statistic, 3: conf.low, 4: conf.high, 5: alternative,
+#   6: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.242     6     8 small    
+
+
+[1] 2-Hexenal, (E)-
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound       estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5 p.sig~6
+  <fct>            <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 2-Hexenal, (E~   0.150 Norm~ female male       4     4       9 0.886   -1.04    1.30 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: estimate, 2: statistic, 3: conf.low, 4: conf.high, 5: alternative,
+#   6: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.102     4     4 small    
+# A tibble: 1 x 14
+  compound       estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5 p.sig~6
+  <fct>            <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 2-Hexenal, (E~   0.246 Norm~ adult  nimph      8     4      24 0.214 -0.0357    1.28 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: estimate, 2: statistic, 3: conf.low, 4: conf.high, 5: alternative,
+#   6: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.392     8     4 moderate 
+
+
+[1] 3-Hexen-1-ol (Z)-
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound       estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5 p.sig~6
+  <fct>            <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 3-Hexen-1-ol ~   0.419 Norm~ female male       8     7      42 0.121  -0.115   0.943 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: estimate, 2: statistic, 3: conf.low, 4: conf.high, 5: alternative,
+#   6: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.418     8     7 moderate 
+# A tibble: 1 x 14
+  compound      estimate .y.   group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>            <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 3-Hexen-1-ol~ -0.00775 Norm~ adult  nimph     15     9      67     1  -0.683   0.471 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph  0.00609    15     9 small    
+
+
+[1] 3-Hexen-1-ol, acetate, (Z)-
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound       estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5 p.sig~6
+  <fct>            <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 3-Hexen-1-ol,~  -0.183 Norm~ female male       6     4       7 0.352  -0.520   0.147 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: estimate, 2: statistic, 3: conf.low, 4: conf.high, 5: alternative,
+#   6: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.337     6     4 moderate 
+# A tibble: 1 x 14
+  compound       estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5 p.sig~6
+  <fct>            <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 3-Hexen-1-ol,~ -0.0693 Norm~ adult  nimph     10     5      21 0.679  -0.382   0.234 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: estimate, 2: statistic, 3: conf.low, 4: conf.high, 5: alternative,
+#   6: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.126    10     5 small    
+
+
+[1] alfa-Copaene
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound     estimate .y.    group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>           <dbl> <chr>  <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 alfa-Copaene -0.00321 Norma~ female male       5     7      17     1  -0.336   0.332 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male    0.0234     5     7 small    
+# A tibble: 1 x 14
+  compound     estimate .y.    group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>           <dbl> <chr>  <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 alfa-Copaene   -0.172 Norma~ adult  nimph     12     4      12  0.17  -0.489   0.151 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.364    12     4 moderate 
+
+
+[1] beta-cis-Ocimene
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound       estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5 p.sig~6
+  <fct>            <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 beta-cis-Ocim~ -0.0968 Norm~ female male       8     8      28 0.721  -0.465   0.302 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: estimate, 2: statistic, 3: conf.low, 4: conf.high, 5: alternative,
+#   6: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.105     8     8 small    
+# A tibble: 1 x 14
+  compound       estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5 p.sig~6
+  <fct>            <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 beta-cis-Ocim~ 4.00e-4 Norm~ adult  nimph     16     9      72     1  -0.291   0.279 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: estimate, 2: statistic, 3: conf.low, 4: conf.high, 5: alternative,
+#   6: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph        0    16     9 small    
+
+
+[1] beta-Myrcene
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound     estimate .y.    group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>           <dbl> <chr>  <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 beta-Myrcene   -0.115 Norma~ female male       3     3       2   0.4  -0.465   0.226 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.445     3     3 moderate 
+# A tibble: 1 x 14
+  compound     estimate .y.    group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>           <dbl> <chr>  <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 beta-Myrcene    0.150 Norma~ adult  nimph      6     3      15 0.167 -0.0906   0.374 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.516     6     3 large    
+
+
+[1] beta-trans-Ocimene
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound       estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5 p.sig~6
+  <fct>            <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 beta-trans-Oc~  -0.126 Norm~ female male       8     8      25 0.505  -0.416   0.324 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: estimate, 2: statistic, 3: conf.low, 4: conf.high, 5: alternative,
+#   6: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.184     8     8 small    
+# A tibble: 1 x 14
+  compound       estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5 p.sig~6
+  <fct>            <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 beta-trans-Oc~   0.283 Norm~ adult  nimph     16     5      67 0.025  0.0471   0.662 Wilco~ two.si~ *      
+# ... with abbreviated variable names 1: estimate, 2: statistic, 3: conf.low, 4: conf.high, 5: alternative,
+#   6: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.487    16     5 moderate 
+
+
+[1] Caryophyllene
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound      estimate .y.   group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>            <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 Caryophyllene    0.127 Norm~ female male       8     8      38 0.574  -0.337   0.620 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.158     8     8 small    
+# A tibble: 1 x 14
+  compound      estimate .y.   group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>            <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 Caryophyllene   -0.286 Norm~ adult  nimph     16     9      50 0.229  -0.593   0.121 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.249    16     9 small    
+
+
+[1] Cosmene
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound estimate .y.        group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>       <dbl> <chr>      <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 Cosmene    -0.194 Normalize~ female male       4     3       1 0.114  -0.581  0.0394 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.668     4     3 large    
+# A tibble: 1 x 14
+  compound estimate .y.        group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>       <dbl> <chr>      <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 Cosmene  -0.00416 Normalize~ adult  nimph      7     6      21     1  -0.266   0.333 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph        0     7     6 small    
+
+
+[1] Dendrolasin
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound    estimate .y.     group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>          <dbl> <chr>   <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 Dendrolasin  -0.0778 Normal~ female male       4     3       4 0.629  -0.228   0.177 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.267     4     3 small    
+# A tibble: 1 x 14
+  compound    estimate .y.    group1 group2    n1    n2 stati~1      p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>          <dbl> <chr>  <chr>  <chr>  <int> <int>   <dbl>  <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 Dendrolasin   -0.133 Norma~ adult  nimph      7     5       6 0.0732  -0.623  0.0232 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.539     7     5 large    
+
+
+[1] DMNT
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound estimate .y.        group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>       <dbl> <chr>      <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 DMNT        0.415 Normalize~ female male       9     8      58 0.036  0.0439   0.994 Wilco~ two.si~ *      
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.513     9     8 large    
+# A tibble: 1 x 14
+  compound estimate .y.       group1 group2    n1    n2 stati~1      p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>       <dbl> <chr>     <chr>  <chr>  <int> <int>   <dbl>  <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 DMNT        0.475 Normaliz~ adult  nimph     17     9     111 0.0662 -0.0252   0.998 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.365    17     9 moderate 
+
+
+[1] eucalyptol
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound   estimate .y.      group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>         <dbl> <chr>    <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 eucalyptol   -0.220 Normali~ female male       6     6      11  0.31  -0.721   0.293 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.324     6     6 moderate 
+# A tibble: 1 x 14
+  compound   estimate .y.      group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>         <dbl> <chr>    <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 eucalyptol   -0.128 Normali~ adult  nimph     12     4      19 0.599  -0.593   0.336 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.152    12     4 small    
+
+
+[1] Germacrene D
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound     estimate .y.    group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>           <dbl> <chr>  <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 Germacrene D    0.113 Norma~ female male       7     4      16 0.788  -0.230   0.545 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.114     7     4 small    
+# A tibble: 1 x 14
+  compound     estimate .y.    group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>           <dbl> <chr>  <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 Germacrene D   -0.147 Norma~ adult  nimph     11     8      31  0.31  -0.363   0.155 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.246    11     8 small    
+
+
+[1] linalool
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound estimate .y.        group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>       <dbl> <chr>      <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 linalool  0.00768 Normalize~ female male       4     6      13 0.914  -0.312   0.179 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male    0.0674     4     6 small    
+# A tibble: 1 x 14
+  compound estimate .y.        group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>       <dbl> <chr>      <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 linalool   -0.151 Normalize~ adult  nimph     10     8      21 0.101  -0.294  0.0526 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.398    10     8 moderate 
+
+
+[1] Methyl salicylate
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound       estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5 p.sig~6
+  <fct>            <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 Methyl salicy~  0.0880 Norm~ female male       9     7      34 0.837  -0.373   0.377 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: estimate, 2: statistic, 3: conf.low, 4: conf.high, 5: alternative,
+#   6: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male    0.0662     9     7 small    
+# A tibble: 1 x 14
+  compound      estim~1 .y.   group1 group2    n1    n2 stati~2      p conf.~3 conf.~4 method alter~5 p.sig~6
+  <fct>           <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl>  <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 Methyl salic~  -0.322 Norm~ adult  nimph     16     9      32 0.0231  -0.630 -0.0286 Wilco~ two.si~ *      
+# ... with abbreviated variable names 1: estimate, 2: statistic, 3: conf.low, 4: conf.high, 5: alternative,
+#   6: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.453    16     9 moderate 
+
+
+[1] Myroxide
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound estimate .y.        group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>       <dbl> <chr>      <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 Myroxide   -0.135 Normalize~ female male       8     8      27 0.645  -0.514   0.225 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.131     8     8 small    
+# A tibble: 1 x 14
+  compound estimate .y.        group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>       <dbl> <chr>      <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 Myroxide    0.218 Normalize~ adult  nimph     16     9      99 0.136 -0.0343   0.507 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.306    16     9 moderate 
+
+
+[1] Octanal
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound estimate .y.        group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>       <dbl> <chr>      <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 Octanal  0.000866 Normalize~ female male       7     3      11     1  -0.342   0.325 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male    0.0360     7     3 small    
+# A tibble: 1 x 14
+  compound estimate .y.        group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>       <dbl> <chr>      <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 Octanal    0.0460 Normalize~ adult  nimph     10     6      34 0.713  -0.169   0.261 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.108    10     6 small    
+
+
+[1] p-Mentha-1,5-dien-8-ol
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound       estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5 p.sig~6
+  <fct>            <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 p-Mentha-1,5-~ -0.0301 Norm~ female male       6     4      11 0.914  -0.408   0.347 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: estimate, 2: statistic, 3: conf.low, 4: conf.high, 5: alternative,
+#   6: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male    0.0674     6     4 small    
+# A tibble: 1 x 14
+  compound       estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5 p.sig~6
+  <fct>            <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 p-Mentha-1,5-~ -0.0595 Norm~ adult  nimph     10     7      33 0.887  -0.228   0.177 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: estimate, 2: statistic, 3: conf.low, 4: conf.high, 5: alternative,
+#   6: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph   0.0473    10     7 small    
+
+
+[1] Piperitone
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- 3-Hexen-1-ol (Z)- ... Piperitone
+# A tibble: 1 x 14
+  compound   estimate .y.      group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>         <dbl> <chr>    <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 Piperitone    0.332 Normali~ female male       6     7      28 0.366  -0.662    1.04 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.277     6     7 small    
+# A tibble: 1 x 14
+  compound   estimate .y.      group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4 p.sig~5
+  <fct>         <dbl> <chr>    <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>   <chr>  
+1 Piperitone   -0.286 Normali~ adult  nimph     13     9      41 0.262  -0.968   0.222 Wilco~ two.si~ ns     
+# ... with abbreviated variable names 1: statistic, 2: conf.low, 3: conf.high, 4: alternative, 5: p.signif
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.249    13     9 small    
+
+
+[1] 1-Hexanol
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- ... Piperitone
+# A tibble: 1 x 14
+  compound  estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5
+  <fct>       <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 1-Hexanol  -0.166 Norm~ female male       7     7      13 0.165  -0.437  0.0533 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: estimate,
+#   2: statistic, 3: conf.low, 4: conf.high, 5: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.393     7     7 moderate 
+# A tibble: 1 x 14
+  compound  estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5
+  <fct>       <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 1-Hexanol -0.0153 Norm~ adult  nimph     14     9      61 0.926  -0.131   0.203 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: estimate,
+#   2: statistic, 3: conf.low, 4: conf.high, 5: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph   0.0263    14     9 small    
+
+
+[1] 2-Ethylhexanol
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- ... Piperitone
+# A tibble: 1 x 14
+  compound  estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5
+  <fct>       <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 2-Ethylh~  -0.463 Norm~ female male       3     3       1   0.2   -1.17   0.294 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: estimate,
+#   2: statistic, 3: conf.low, 4: conf.high, 5: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.624     3     3 large    
+# A tibble: 1 x 14
+  compound  estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5
+  <fct>       <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 2-Ethylh~   0.176 Norm~ adult  nimph      6     8      31 0.414  -0.393   0.642 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: estimate,
+#   2: statistic, 3: conf.low, 4: conf.high, 5: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.242     6     8 small    
+
+
+[1] 2-Hexenal, (E)-
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- ... Piperitone
+# A tibble: 1 x 14
+  compound  estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5
+  <fct>       <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 2-Hexena~   0.150 Norm~ female male       4     4       9 0.886   -1.04    1.30 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: estimate,
+#   2: statistic, 3: conf.low, 4: conf.high, 5: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.102     4     4 small    
+# A tibble: 1 x 14
+  compound  estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5
+  <fct>       <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 2-Hexena~   0.246 Norm~ adult  nimph      8     4      24 0.214 -0.0357    1.28 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: estimate,
+#   2: statistic, 3: conf.low, 4: conf.high, 5: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.392     8     4 moderate 
+
+
+[1] 3-Hexen-1-ol (Z)-
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- ... Piperitone
+# A tibble: 1 x 14
+  compound  estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5
+  <fct>       <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 3-Hexen-~   0.419 Norm~ female male       8     7      42 0.121  -0.115   0.943 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: estimate,
+#   2: statistic, 3: conf.low, 4: conf.high, 5: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.418     8     7 moderate 
+# A tibble: 1 x 14
+  compound estimate .y.   group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4
+  <fct>       <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 3-Hexen~ -0.00775 Norm~ adult  nimph     15     9      67     1  -0.683   0.471 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: statistic,
+#   2: conf.low, 3: conf.high, 4: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph  0.00609    15     9 small    
+
+
+[1] 3-Hexen-1-ol, acetate, (Z)-
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- ... Piperitone
+# A tibble: 1 x 14
+  compound  estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5
+  <fct>       <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 3-Hexen-~  -0.183 Norm~ female male       6     4       7 0.352  -0.520   0.147 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: estimate,
+#   2: statistic, 3: conf.low, 4: conf.high, 5: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.337     6     4 moderate 
+# A tibble: 1 x 14
+  compound  estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5
+  <fct>       <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 3-Hexen-~ -0.0693 Norm~ adult  nimph     10     5      21 0.679  -0.382   0.234 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: estimate,
+#   2: statistic, 3: conf.low, 4: conf.high, 5: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.126    10     5 small    
+
+
+[1] alfa-Copaene
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- ... Piperitone
+# A tibble: 1 x 14
+  compound estimate .y.   group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4
+  <fct>       <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 alfa-Co~ -0.00321 Norm~ female male       5     7      17     1  -0.336   0.332 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: statistic,
+#   2: conf.low, 3: conf.high, 4: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male    0.0234     5     7 small    
+# A tibble: 1 x 14
+  compound  estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5
+  <fct>       <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 alfa-Cop~  -0.172 Norm~ adult  nimph     12     4      12  0.17  -0.489   0.151 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: estimate,
+#   2: statistic, 3: conf.low, 4: conf.high, 5: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.364    12     4 moderate 
+
+
+[1] beta-cis-Ocimene
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- ... Piperitone
+# A tibble: 1 x 14
+  compound  estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5
+  <fct>       <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 beta-cis~ -0.0968 Norm~ female male       8     8      28 0.721  -0.465   0.302 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: estimate,
+#   2: statistic, 3: conf.low, 4: conf.high, 5: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.105     8     8 small    
+# A tibble: 1 x 14
+  compound  estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5
+  <fct>       <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 beta-cis~ 4.00e-4 Norm~ adult  nimph     16     9      72     1  -0.291   0.279 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: estimate,
+#   2: statistic, 3: conf.low, 4: conf.high, 5: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph        0    16     9 small    
+
+
+[1] beta-Myrcene
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- ... Piperitone
+# A tibble: 1 x 14
+  compound  estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5
+  <fct>       <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 beta-Myr~  -0.115 Norm~ female male       3     3       2   0.4  -0.465   0.226 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: estimate,
+#   2: statistic, 3: conf.low, 4: conf.high, 5: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.445     3     3 moderate 
+# A tibble: 1 x 14
+  compound  estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5
+  <fct>       <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 beta-Myr~   0.150 Norm~ adult  nimph      6     3      15 0.167 -0.0906   0.374 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: estimate,
+#   2: statistic, 3: conf.low, 4: conf.high, 5: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.516     6     3 large    
+
+
+[1] beta-trans-Ocimene
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- ... Piperitone
+# A tibble: 1 x 14
+  compound  estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5
+  <fct>       <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 beta-tra~  -0.126 Norm~ female male       8     8      25 0.505  -0.416   0.324 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: estimate,
+#   2: statistic, 3: conf.low, 4: conf.high, 5: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.184     8     8 small    
+# A tibble: 1 x 14
+  compound  estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5
+  <fct>       <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 beta-tra~   0.283 Norm~ adult  nimph     16     5      67 0.025  0.0471   0.662 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: estimate,
+#   2: statistic, 3: conf.low, 4: conf.high, 5: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.487    16     5 moderate 
+
+
+[1] Caryophyllene
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- ... Piperitone
+# A tibble: 1 x 14
+  compound  estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5
+  <fct>       <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 Caryophy~   0.127 Norm~ female male       8     8      38 0.574  -0.337   0.620 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: estimate,
+#   2: statistic, 3: conf.low, 4: conf.high, 5: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.158     8     8 small    
+# A tibble: 1 x 14
+  compound  estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5
+  <fct>       <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 Caryophy~  -0.286 Norm~ adult  nimph     16     9      50 0.229  -0.593   0.121 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: estimate,
+#   2: statistic, 3: conf.low, 4: conf.high, 5: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.249    16     9 small    
+
+
+[1] Cosmene
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- ... Piperitone
+# A tibble: 1 x 14
+  compound estimate .y.   group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4
+  <fct>       <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 Cosmene    -0.194 Norm~ female male       4     3       1 0.114  -0.581  0.0394 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: statistic,
+#   2: conf.low, 3: conf.high, 4: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.668     4     3 large    
+# A tibble: 1 x 14
+  compound estimate .y.   group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4
+  <fct>       <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 Cosmene  -0.00416 Norm~ adult  nimph      7     6      21     1  -0.266   0.333 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: statistic,
+#   2: conf.low, 3: conf.high, 4: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph        0     7     6 small    
+
+
+[1] Dendrolasin
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- ... Piperitone
+# A tibble: 1 x 14
+  compound  estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5
+  <fct>       <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 Dendrola~ -0.0778 Norm~ female male       4     3       4 0.629  -0.228   0.177 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: estimate,
+#   2: statistic, 3: conf.low, 4: conf.high, 5: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.267     4     3 small    
+# A tibble: 1 x 14
+  compound estim~1 .y.   group1 group2    n1    n2 stati~2      p conf.~3 conf.~4 method alter~5
+  <fct>      <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl>  <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 Dendrol~  -0.133 Norm~ adult  nimph      7     5       6 0.0732  -0.623  0.0232 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: estimate,
+#   2: statistic, 3: conf.low, 4: conf.high, 5: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.539     7     5 large    
+
+
+[1] DMNT
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- ... Piperitone
+# A tibble: 1 x 14
+  compound estimate .y.   group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4
+  <fct>       <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 DMNT        0.415 Norm~ female male       9     8      58 0.036  0.0439   0.994 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: statistic,
+#   2: conf.low, 3: conf.high, 4: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.513     9     8 large    
+# A tibble: 1 x 14
+  compound estim~1 .y.   group1 group2    n1    n2 stati~2      p conf.~3 conf.~4 method alter~5
+  <fct>      <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl>  <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 DMNT       0.475 Norm~ adult  nimph     17     9     111 0.0662 -0.0252   0.998 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: estimate,
+#   2: statistic, 3: conf.low, 4: conf.high, 5: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.365    17     9 moderate 
+
+
+[1] eucalyptol
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- ... Piperitone
+# A tibble: 1 x 14
+  compound  estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5
+  <fct>       <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 eucalypt~  -0.220 Norm~ female male       6     6      11  0.31  -0.721   0.293 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: estimate,
+#   2: statistic, 3: conf.low, 4: conf.high, 5: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.324     6     6 moderate 
+# A tibble: 1 x 14
+  compound  estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5
+  <fct>       <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 eucalypt~  -0.128 Norm~ adult  nimph     12     4      19 0.599  -0.593   0.336 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: estimate,
+#   2: statistic, 3: conf.low, 4: conf.high, 5: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.152    12     4 small    
+
+
+[1] Germacrene D
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- ... Piperitone
+# A tibble: 1 x 14
+  compound  estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5
+  <fct>       <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 Germacre~   0.113 Norm~ female male       7     4      16 0.788  -0.230   0.545 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: estimate,
+#   2: statistic, 3: conf.low, 4: conf.high, 5: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.114     7     4 small    
+# A tibble: 1 x 14
+  compound  estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5
+  <fct>       <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 Germacre~  -0.147 Norm~ adult  nimph     11     8      31  0.31  -0.363   0.155 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: estimate,
+#   2: statistic, 3: conf.low, 4: conf.high, 5: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.246    11     8 small    
+
+
+[1] linalool
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- ... Piperitone
+# A tibble: 1 x 14
+  compound estimate .y.   group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4
+  <fct>       <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 linalool  0.00768 Norm~ female male       4     6      13 0.914  -0.312   0.179 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: statistic,
+#   2: conf.low, 3: conf.high, 4: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male    0.0674     4     6 small    
+# A tibble: 1 x 14
+  compound estimate .y.   group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4
+  <fct>       <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 linalool   -0.151 Norm~ adult  nimph     10     8      21 0.101  -0.294  0.0526 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: statistic,
+#   2: conf.low, 3: conf.high, 4: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.398    10     8 moderate 
+
+
+[1] Methyl salicylate
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- ... Piperitone
+# A tibble: 1 x 14
+  compound  estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5
+  <fct>       <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 Methyl s~  0.0880 Norm~ female male       9     7      34 0.837  -0.373   0.377 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: estimate,
+#   2: statistic, 3: conf.low, 4: conf.high, 5: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male    0.0662     9     7 small    
+# A tibble: 1 x 14
+  compound estim~1 .y.   group1 group2    n1    n2 stati~2      p conf.~3 conf.~4 method alter~5
+  <fct>      <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl>  <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 Methyl ~  -0.322 Norm~ adult  nimph     16     9      32 0.0231  -0.630 -0.0286 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: estimate,
+#   2: statistic, 3: conf.low, 4: conf.high, 5: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.453    16     9 moderate 
+
+
+[1] Myroxide
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- ... Piperitone
+# A tibble: 1 x 14
+  compound estimate .y.   group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4
+  <fct>       <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 Myroxide   -0.135 Norm~ female male       8     8      27 0.645  -0.514   0.225 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: statistic,
+#   2: conf.low, 3: conf.high, 4: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.131     8     8 small    
+# A tibble: 1 x 14
+  compound estimate .y.   group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4
+  <fct>       <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 Myroxide    0.218 Norm~ adult  nimph     16     9      99 0.136 -0.0343   0.507 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: statistic,
+#   2: conf.low, 3: conf.high, 4: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.306    16     9 moderate 
+
+
+[1] Octanal
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- ... Piperitone
+# A tibble: 1 x 14
+  compound estimate .y.   group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4
+  <fct>       <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 Octanal  0.000866 Norm~ female male       7     3      11     1  -0.342   0.325 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: statistic,
+#   2: conf.low, 3: conf.high, 4: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male    0.0360     7     3 small    
+# A tibble: 1 x 14
+  compound estimate .y.   group1 group2    n1    n2 stati~1     p conf.~2 conf.~3 method alter~4
+  <fct>       <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 Octanal    0.0460 Norm~ adult  nimph     10     6      34 0.713  -0.169   0.261 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: statistic,
+#   2: conf.low, 3: conf.high, 4: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.108    10     6 small    
+
+
+[1] p-Mentha-1,5-dien-8-ol
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- ... Piperitone
+# A tibble: 1 x 14
+  compound  estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5
+  <fct>       <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 p-Mentha~ -0.0301 Norm~ female male       6     4      11 0.914  -0.408   0.347 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: estimate,
+#   2: statistic, 3: conf.low, 4: conf.high, 5: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male    0.0674     6     4 small    
+# A tibble: 1 x 14
+  compound  estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5
+  <fct>       <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 p-Mentha~ -0.0595 Norm~ adult  nimph     10     7      33 0.887  -0.228   0.177 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: estimate,
+#   2: statistic, 3: conf.low, 4: conf.high, 5: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph   0.0473    10     7 small    
+
+
+[1] Piperitone
+21 Levels: 1-Hexanol 2-Ethylhexanol 2-Hexenal, (E)- ... Piperitone
+# A tibble: 1 x 14
+  compound  estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5
+  <fct>       <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 Piperito~   0.332 Norm~ female male       6     7      28 0.366  -0.662    1.04 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: estimate,
+#   2: statistic, 3: conf.low, 4: conf.high, 5: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response female male     0.277     6     7 small    
+# A tibble: 1 x 14
+  compound  estim~1 .y.   group1 group2    n1    n2 stati~2     p conf.~3 conf.~4 method alter~5
+  <fct>       <dbl> <chr> <chr>  <chr>  <int> <int>   <dbl> <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 Piperito~  -0.286 Norm~ adult  nimph     13     9      41 0.262  -0.968   0.222 Wilco~ two.si~
+# ... with 1 more variable: p.signif <chr>, and abbreviated variable names 1: estimate,
+#   2: statistic, 3: conf.low, 4: conf.high, 5: alternative
+# i Use `colnames()` to see all variable names
+# A tibble: 1 x 7
+  .y.                 group1 group2 effsize    n1    n2 magnitude
+* <chr>               <chr>  <chr>    <dbl> <int> <int> <ord>    
+1 Normalized_response adult  nimph    0.249    13     9 small    
+
+

@@ -1,0 +1,31 @@
+sesquiterpene"      halványpiros  
+ "monoterpenoid alcohol" lila
+"monoterpene"      piros
+"ketone"              világoszöld
+  "hemiterpene"     középhalvánppiros
+      "ester"        szürke
+aldehyde"       sötétzöld
+
+[29] "alcohol"   kék   
+
+
+"#fc9272", 
+"#4a1486", 
+"#99000d", 
+"#addd8e", 
+"#ef3b2c", 
+"#737373", 
+"#005a32", 
+"#034e7b"  
+
+
+
+
+"#034e7b",
+"#005a32",
+"#737373",
+"#ef3b2c", 
+"#addd8e",
+"#99000d", 
+"#4a1486",
+"#fc9272"
